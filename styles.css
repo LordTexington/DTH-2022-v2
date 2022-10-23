@@ -1,0 +1,123 @@
+.container {
+    position: relative;
+}
+
+img {
+    min-width: 720px;
+    width: 100vw;
+}
+.home {
+    width: 5vw;
+    height: 5%;
+    left:10vw;
+    top:7%;
+}
+.overview {
+    width: 7vw;
+    height: 5%;
+    left:19vw;
+    top:7%;
+}
+.custom {
+    width: 15vw;
+    height: 5%;
+    left:30vw;
+    top:7%;
+}
+.surface {
+    width: 5vw;
+    height: 5%;
+    left:49vw;
+    top:7%;  
+}
+.underground {
+    width: 9.5vw;
+    height: 5%;
+    left:58vw;
+    top:7%;
+}
+.about {
+    width: 7vw;
+    height: 5%;
+    left:73vw;
+    top:7%;
+}
+.contact {
+    width: 5vw;
+    height: 5%;
+    left:85vw;
+    top:7%;
+}
+a {
+    color: blue;
+    float:left;
+    position:absolute;
+}
+.home_email {
+    width:18vw;
+    height:5%;
+    left:76vw;
+    top:87%;
+}
+.overview_email {
+    width:18vw;
+    height:5%;
+    left:42vw;
+    top:86%;
+}
+.custom_email {
+    float:none;
+    width:18%;
+    height:5%;
+    left:42%;
+    top:86%;
+}
+.surface_email {
+    float:none;
+    width:18%;
+    height:5%;
+    left:42%;
+    top:88.5%;
+    
+}
+.underground_email {
+    float:none;
+    width:18%;
+    height:5%;
+    left:42%;
+    top:88.5%;
+    
+}
+.about_email {
+    float:none;
+    width:18%;
+    height:5%;
+    left:42%;
+    top:80%;
+    
+}
+.form {
+    float:left;
+    position: absolute;
+    left: 55%;
+    width:40%;
+    top:30%;
+    font-family: Calibri;
+    font-size:200%;
+    line-height: 150%;
+}
+input {
+    height:35;
+    width:300;
+    float:right;
+}
+select {
+    height:35;
+    width:300;
+    float:right;
+}
+textarea {
+    height: 200;
+    width: 300;
+    float: right;
+}
