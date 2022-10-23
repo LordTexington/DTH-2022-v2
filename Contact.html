@@ -4,14 +4,14 @@
     </head>
     <body>
         <div class="container">
-        <img src="Images/Slide8.jpeg">
-        <div><a href="Home.html" class="home">Home</a>
-            <a href="Overview.html" class="overview">Overview</a>
-            <a href="Custom.html" class="custom">Customised Programs</a>
-            <a href="Surface.html" class="surface">Surface</a>
-            <a href="Underground.html" class="underground">Underground</a>
-            <a href="About.html" class="about">About Us</a>
-            <a href="Contact.html" class="contact">Contact</a>
+        <img src="Images/Slide7.png">
+        <div><a href="Home.html" class="home"></a>
+            <a href="Overview.html" class="overview"></a>
+            <a href="Custom.html" class="custom"></a>
+            <a href="Surface.html" class="surface"></a>
+            <a href="Underground.html" class="underground"></a>
+            <a href="About.html" class="about"></a>
+            <a href="Contact.html" class="contact"></a>
         </div>
         <div class="form">
             <form action="https://formsubmit.co/nathan@dthds.com.au" method="POST">
@@ -24,12 +24,10 @@
 
 
                 
-                <input type="text" id="name" name="Name" required><br>
-                
-                <input type="text" id="email" name="Email" required><br>
+                <div class="name"><input type="text" id="name" name="Name" required></div>
+                <div class="email"><input type="text" id="email" name="Email" required></div>
                 <!-- country codes (ISO 3166) and Dial codes. -->
-                
-                <select id="country" name="Country" class="form-control">
+                <div class="country"><select id="country" name="Country" class="form-control">
                     <option value=""></option>
                     <option value="Afghanistan">Afghanistan</option>
                     <option value="Aland Islands">Aland Islands</option>
@@ -275,9 +273,8 @@
                     <option value="Yemen">Yemen</option>
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
-                </select><br>
-                
-                <select name="Timezone" id="timezone-offset" class="span5">
+                </select></div>
+                <div class="time"><select name="Timezone" id="timezone-offset" class="span5">
                     <option value=""></option>
                     <option value="-12:00">(GMT -12:00) Eniwetok, Kwajalein</option>
                     <option value="-11:00">(GMT -11:00) Midway Island, Samoa</option>
@@ -319,12 +316,10 @@
                     <option value="+12:75">(GMT +12:45) Chatham Islands</option>
                     <option value="+13:00">(GMT +13:00) Apia, Nukualofa</option>
                     <option value="+14:00">(GMT +14:00) Line Islands, Tokelau</option>
-                </select><br>
-                
-                <input type="text" id="phone" name="Phone"><br>
-                
-                <textarea name="Message" rows="10" required></textarea>
-                <input type="submit" value="Submit" style="font-size:large;color:Black;margin-top: 10;">
+                </select></div>
+                <div class="phone"><input type="text" id="phone" name="Phone"></div>
+                <div class="message"><textarea name="Message" rows="10" required></textarea></div>
+                <div class="submit"><input type="submit" value="Submit" style="font-weight:bold;font-size:large;color:Black;margin-top: 10;"></div>
             </form>
         </div>
         </div>
