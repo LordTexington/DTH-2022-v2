@@ -1,5 +1,5 @@
 body {
-    background-image: url('Images/stone.jpeg');
+    background-image: url('images/stone.jpeg');
 }
 
 .container {
@@ -60,7 +60,6 @@ a {
     color: blue;
     float:left;
     position:absolute;
-    /* border-style: solid; */
 }
 .home_email {
     width:18%;
@@ -111,8 +110,7 @@ form {
     left:65%;
     top:30%;
     height:80%;
-    min-width: 720px;
-
+    max-width: 720px;
 }
 input {
     height:100%;
@@ -123,8 +121,10 @@ select {
     width:35%;
 }
 textarea {
-    height: 100%;
+    height:10vw;
     width:35%;
+    resize:none;
+    object-fit: cover;
 }
 .name {
     position:absolute;
@@ -151,7 +151,8 @@ textarea {
     top:34%;
 }
 .submit {
+    float:none;
     position:absolute;
-    top:40%;
-    right:38%;
+    top:73%;
+    left:65%;    
 }
